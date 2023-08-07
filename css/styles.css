@@ -117,13 +117,17 @@ link .nav-link{list-style: none;
     .contact-link:focus{color: var(--ocean);}
 
     .section-one{background-color: var(--navyblue);
-        display: block;
         padding: 188px 0;
-        height: 600px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(/images/people-office\ _1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1440px;
+        margin: 0 auto;
+        background-size: cover;
         }
 
     .section-one-title{color: var(--white);
-        background-color: var(--navyblue);
         text-align:center;
         font-size: 56px;
         font-weight: 700;
