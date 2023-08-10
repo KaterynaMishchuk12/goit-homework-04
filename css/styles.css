@@ -501,7 +501,7 @@ ul {
   transform: translateX(0);
 }
 .portfolio-link:hover p,
-.portfolio-link:focus p{ translateY(0%);
+.portfolio-link:focus p{transform: translateY(0%);
 }
 .portfolio-list-title {
   color: var(--navyblue);
