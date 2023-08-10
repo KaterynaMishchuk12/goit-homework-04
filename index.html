@@ -67,19 +67,6 @@
           <button data-modal-open class="button" type="button">
             Order Service
           </button>
-          <!--modal window-->
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal-window">
-              <p></p>
-              <button class="close-button" type="button" data-modal-close>
-                <svg width="8" height="8">
-                  <use
-                    href="./images/icons.svg#icon-close-black-18dp-2-1"
-                  ></use>
-                </svg>
-              </button>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -331,7 +318,7 @@
                     </a>
                   </li>
                   <li class="icon-box">
-                    <a class=" link social-links" href="http://facebook.com/">
+                    <a class="link social-links" href="http://facebook.com/">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
@@ -353,51 +340,53 @@
 
       <!-- Section 5-->
       <section class="section-five">
-        <h2 class="section-five-title">Customers</h2>
-        <ul class="list section-five-list">
-          <li class="customer-list-item">
-            <a class="customers-link" href="">
-              <svg class="customer-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer-list-item">
-            <a class="customers-link" href="">
-              <svg class="customer-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer-list-item">
-            <a class="customers-link" href=""
-              ><svg class="customer-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer-list-item">
-            <a class="customers-link" href="">
-              <svg class="customer-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-3"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer-list-item">
-            <a class="customers-link" href="">
-              <svg class="customer-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-4"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customer-list-item">
-            <a class="customers-link" href="">
-              <svg class="customer-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-5"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-five-title">Customers</h2>
+          <ul class="list section-five-list">
+            <li class="customers-list-item">
+              <a class="customers-link" href="">
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a class="customers-link" href="">
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a class="customers-link" href=""
+                ><svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a class="customers-link" href="">
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a class="customers-link" href="">
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-list-item">
+              <a class="customers-link" href="">
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-5"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
@@ -448,6 +437,17 @@
         </div>
       </div>
     </footer>
+    <!--modal window-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <p></p>
+        <button class="close-button" type="button" data-modal-close>
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
