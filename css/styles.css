@@ -505,6 +505,9 @@ ul {
 .portfolio-link:hover .overlay {
   transform: translateX(0);
 }
+.portfolio-link:focus .overlay{
+  transform: translateX(0);
+}
 
 .portfolio-list-title {
   color: var(--navyblue);
